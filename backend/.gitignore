@@ -9,5 +9,6 @@ base/urls/__pycache__/
 base/views/__pycache__/
 **/package-lock.json
 **/package.json
+frontend/public/manifest.json
 
 
