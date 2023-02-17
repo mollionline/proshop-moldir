@@ -1,0 +1,13 @@
+**/.idea/*
+myenv/
+base/migrations/__pycache__/
+.env
+**/node_modules
+backend/__pycache__/
+base/__pycache__/
+base/urls/__pycache__/
+base/views/__pycache__/
+**/package-lock.json
+**/package.json
+
+
