@@ -36,7 +36,7 @@ function ProductListScreen() {
 
         if(successCreate){
             navigate(`/admin/product/${newProductCreate._id}/edit`)
-            console.log(newProductCreate)
+
         }else{
             dispatch(listProducts())
         }

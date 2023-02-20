@@ -10,7 +10,7 @@ export function Paginate(pages, isAdmin = false) {
   if(pages.keyword){
     new_keyword = pages.keyword.split('?keyword=')[1].split('&')[0]
   }
-  console.log([...Array(pages.pages).keys()].map((x)=>(console.log(x))))
+
   total = pages.pages
 
   const paginationBasic = (
