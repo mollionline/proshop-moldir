@@ -140,11 +140,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('NAME'),
-        'USER': os.getenv('USER'),
+        'NAME': 'proshop',
+        'USER': 'moldir',
         'PASSWORD': os.getenv('PASSWORD'),
-        'HOST': os.getenv('HOST'),
-        'PORT': os.getenv('PORT')
+        'HOST': 'proshop.cu9tr3wjjcta.ap-northeast-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
